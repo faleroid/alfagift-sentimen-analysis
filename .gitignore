@@ -1,0 +1,38 @@
+# === Virtual Environment ===
+venv/
+env/
+.venv/
+
+# === Python Cache ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/
+
+# === Model Files (Large Binary) ===
+assets/*.keras
+assets/*.joblib
+assets/*.pickle
+assets/*.model
+
+# === Dataset Files (Large CSV) ===
+df_alfagift.csv
+df_alfagift_clean.csv
+output/data_clean.csv
+
+# === IDE/Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Environment Variables ===
+.env
+.env.local
